@@ -6,7 +6,7 @@ import theme from "../../constants/theme";
 export const About = ({goBackFromAbout}) => (<View style={styles.container}>
     <Card style={styles.result}>
       <Text>Este proyecto fue copiado por:</Text>
-      <Text>Felipe Álvarez</Text>
+      <Text style={styles.name}>Felipe Álvarez</Text>
     </Card>
     <Button
       title="Volver"

@@ -20,4 +20,7 @@ export const styles = StyleSheet.create({
     width: "80%",
     height: 300,
   },
+  name: {
+    fontFamily: "creepster"
+  }
 });

@@ -12,6 +12,7 @@ import { About } from "./screens/about/index";
 
 export default function App() {
   const [loaded] = useFonts({
+    "creepster": require("./assets/fonts/Creepster-Regular.ttf"),
     "open-sans": require("./assets/fonts/OpenSans-Regular.ttf"),
     "open-sans-bold": require("./assets/fonts/OpenSans-Bold.ttf"),
     "open-sans-semibold": require("./assets/fonts/OpenSans-SemiBold.ttf"),
